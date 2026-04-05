@@ -52,10 +52,3 @@ curl -X PUT http://localhost:3000/tasks/1 \
 # Delete a task
 curl -X DELETE http://localhost:3000/tasks/1
 ```
-
-## Why Bun?
-
-- Crazy fast startup times compared to Node.js
-- Built-in SQLite means zero database setup
-- Native TypeScript support — no build step needed
-- `bun:sqlite` is synchronous and fast, perfect for small APIs

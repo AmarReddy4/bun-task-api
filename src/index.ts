@@ -69,7 +69,7 @@ app.delete("/tasks/:id", (c) => {
   return c.json({ message: "Task deleted" });
 });
 
-console.log("🚀 Bun Task API running on http://localhost:3000");
+console.log("Bun Task API running on http://localhost:3000");
 
 export default {
   port: 3000,
